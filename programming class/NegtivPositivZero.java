@@ -5,6 +5,7 @@ public class NegtivPositivZero {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the  Number ");
         int a= sc.nextInt();
+         sc.close();
         if(a>0)
         System.out.println(a+ " is Positive Number ");
         if(a<0)

@@ -5,6 +5,7 @@ public class MonthDay {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the Number ");
         int m=sc.nextInt();
+        sc.close();
         switch(m)
         {
             case 1: 
