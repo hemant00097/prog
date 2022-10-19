@@ -20,7 +20,7 @@ public class Happy {
      {
         for(int i=0;i<=n;i++)
         if(isHappy(i))
-        System.out.println(i+" ");
+        System.out.print(i+" ");
      }
      public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
