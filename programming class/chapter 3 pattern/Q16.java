@@ -1,9 +1,9 @@
 // patrern this program
-//     AAAAA
-//     BBBBB
-//     CCCCC
-//     DDDDD
-//     EEEEE
+//     ABCDE
+//     ABCDE
+//     ABCDE
+//     ABCDE
+//     ABCDE
 
 import java.util.Scanner;
 class NotBQ10
@@ -17,7 +17,7 @@ class NotBQ10
         {
             for(int j=1 ;j<=n;j++)
             {
-                System.out.print((char)+(i+64)+" ");
+                System.out.print((char)+(j+64)+" ");
             }
             System.out.println( );
         }

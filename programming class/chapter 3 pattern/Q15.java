@@ -1,12 +1,12 @@
-// patrern this program
-//     AAAAA
-//     BBBBB
-//     CCCCC
-//     DDDDD
-//     EEEEE
+//     print this pettern
+//       5 4 3 2 1
+//       5 4 3 2 1 
+//       5 4 3 2 1
+//       5 4 3 2 1 
+//       5 4 3 2 1
 
 import java.util.Scanner;
-class NotBQ10
+class Q15
 {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
@@ -15,14 +15,12 @@ class NotBQ10
         sc.close();
         for(int i=1;i<=n;i++)
         {
-            for(int j=1 ;j<=n;j++)
+            for(int j=n ;j>=1;j--)
             {
-                System.out.print((char)+(i+64)+" ");
+                System.out.print(j+" ");
             }
             System.out.println( );
         }
     }
 }
-
-
 

@@ -1,3 +1,10 @@
+//     print this pettern
+//       55555
+//       44444 
+//       33333
+//       22222 
+//       11111
+
 import java.util.Scanner;
 class NotBQ6
 {

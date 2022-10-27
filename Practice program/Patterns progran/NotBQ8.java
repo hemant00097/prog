@@ -1,3 +1,10 @@
+    //  pattern this program
+    //    1 0 1 0 1 
+    //    1 0 1 0 1 
+    //    1 0 1 0 1 
+    //    1 0 1 0 1 
+    //    1 0 1 0 1 
+
 import java.util.Scanner;
 class NotBQ8
 {
