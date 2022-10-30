@@ -19,9 +19,17 @@ class Q13
             {
                 System.out.print(" ");
             }
-           for(int j=i; j>=1 ;j--)
+            int x=i;
+           for(int j=1; j<=2*i-1 ;j++)
            {
-              System.out.print(j+"");
+              System.out.print(x+"");
+              if(j<i)
+              {
+                x--;
+              }
+              else{
+                x++;
+              }
            }
             System.out.println( );
         }
