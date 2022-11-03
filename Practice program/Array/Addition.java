@@ -1,3 +1,4 @@
+// WAP To Calculate the sum of all the interger value read  read the value in command line
 public class Addition {
     public static void main(String[] args) {
         int sum=0;

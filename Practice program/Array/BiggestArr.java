@@ -1,3 +1,5 @@
+// WAP to defind a method to return the Biggestelement in the Array 
+
 import java.util.Scanner;
 public class BiggestArr {
 		static int getBiggest(int[]ar)
@@ -20,6 +22,7 @@ public class BiggestArr {
 			for(int i=0; i<ar.length; i++)
 			{
 				ar[i] =sc.nextInt();
+				sc.close();
 			}
 			return ar;
 		}
@@ -31,8 +34,10 @@ public class BiggestArr {
 		System.out.println();
 		}
 		public static void main(String[] args) {
+		
 			int[] x=readArray();
 			int bg=getBiggest(x);
 			 System.out.println("Biggest is:"+bg);
 		}
+	
 	}

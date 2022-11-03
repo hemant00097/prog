@@ -1,7 +1,6 @@
-// Write A Java Program To Print Sum Of All The Number Between 1 to 50 
 import java.util.Scanner;
 
-public class SumOfPrime {
+public class PrimeNumberSum {
     static boolean isprime(int x)
     {
         for(int i=2 ;i<=x/2;i++)

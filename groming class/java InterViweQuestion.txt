@@ -1,0 +1,36 @@
+**# 31/10/22 #**
+
+Q1. Why java is Object Oriented?
+Q2. Why java is not 100% Object Oriented?
+Q3. What is singleton class?
+Q4. What is WORA?
+Q5. What is Inheritance and how many Inheritance is possible in java?
+Q6. What is Diamond Problem?
+Q7. What is Method Binding?
+Q8. What is Typecasting and it's types?
+Q9. What is Polymorphism and types of Polymorphism?
+Q10. What is Encapsulationm and rules for Encapsulation?
+-----------------------------------------------------------------------------------------------------------------------------------------
+**# 01/11/22 #**
+
+Q1. Explain public static void main(String [] args)?
+Q2. Explain System.out.println? 
+Q3. What is Constructor Chaining?
+Q4. Difference between this and super?
+Q5. Difference between Early Binding and Late Binding?
+Q6. Can we Override Static Method?
+Q7. What is Object Class and how many methods are there in Object Class?
+---------------------------------------------------------------------------------------------------------------------------------------
+ **# 02/11/22 #**
+
+Q1. DIFF. B/W OVERLOADING AND OVERRIDING ?
+Q2. EXPLAIN FINAL,FINALLY,FINALIZE ?
+Q3. rEALTIME EXAMPLE FOR METHOD OVERLOADING ?
+Q4. CAN WE MAKE CONSTRUTRUCTOR STATIC ?
+Q5. CAN WE CALL STATIC MATHEAD BY OBJECT REFERENCE ?
+Q6. WHAT IS THE ABSTRACT CLASS ?
+Q7. DIFFERENCE B/W ABSTRACE AND CONCRETE METHOD ?
+Q8. WHAT IS INTERFACE ?
+Q9. DIFFERENCE B/W INTERFACE AND ABSTRACE CLASS ?
+Q10. CAN WE DECLARE CONCRETE METHOD IN INTERFACE ? 
+IF YES  THAN WHAT THE TYPE OF METHOD STATIC OR NOT STATIC ?

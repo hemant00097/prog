@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //location.reload()
+        var successCallback=(position)=>{console.log(position)}
+        var errorCallback=(position)=>{console.log(position)}
+        navigator.geolocation.getCurrentPosition(successCallback,errorCallback)  //fc
+        navigator.geolocation.watchPosition()
+      </script>
+</body>
+</html>

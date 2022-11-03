@@ -1,5 +1,4 @@
-import java.util.Scanner;
-
+// WAP To perorme all the Arthmatic operation in two integer value  the command line
 public class ArithMeticOper {
     public static void main(String[] args) 
     {
