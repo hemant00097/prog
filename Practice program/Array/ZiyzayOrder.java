@@ -69,7 +69,14 @@ public class ZiyzayOrder{
         int j=0;
         for(int i=0;i<a.length;i++)
         {
-            c[j]=
+            c[j]=a[i];
+            j++;
+            c[j]=b[i];
+            j++;
+        }
+        for(int n=0;n<c.length;n++)
+        {
+            System.out.println(c[n]+" ");
         }
     }
 }

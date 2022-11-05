@@ -1,7 +1,8 @@
 // WAP to defind a method to return the Biggestelement in the Array 
 
 import java.util.Scanner;
-public class BiggestArr {
+public class BiggestArr 
+{
 		static int getBiggest(int[]ar)
 		{
 			int big=ar[0];
