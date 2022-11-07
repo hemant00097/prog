@@ -20,9 +20,7 @@
 //             System.out.println(i+"-> "+count[i]);
 //         }
 //     }
-//  } 
-
-// not eun program  
+//  }   
 
 
 import java.util.Scanner;
@@ -45,9 +43,8 @@ public class Frequency
     {
       for(int i=0;i<ar.length;i++)
       {
-        System.out.print(ar[i]+" ");
+        System.out.println(ar[i]+" ");
       }
-      System.out.println();
     }
     public static void PrintFequency(int[] ar)
     {
@@ -57,7 +54,7 @@ public class Frequency
         if(rs[i]==false)
         {
             int count=1;
-            for(int j=i+1;j<ar.length;i++)
+            for(int j=i+1;j<ar.length;j++)
             {
                 if(ar[i]==ar[j])
                 {
@@ -65,15 +62,15 @@ public class Frequency
                     rs[j]=true;
                 }
             }
-            System.out.println(ar[i]+"present "+count);
+            System.out.println(ar[i]+" present "+count);
         }
       }   
     }
     public static void main(String[] args) 
     {
-        
         int a[] =readArray();
-        readArray();
+        System.out.println("Before ");
+        disPlay(a);
         PrintFequency(a);
         
     }

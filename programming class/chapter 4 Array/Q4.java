@@ -1,3 +1,6 @@
+// WAJP to define a method to return biggest element from the array
+// i/p ={ 34,67 ,43 , 12, 56 ,99 }
+// o/p ={the biggest elemant is-99}
 import java.util.Scanner;
 public class Q4
  {

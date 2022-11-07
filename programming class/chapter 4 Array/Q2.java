@@ -1,3 +1,7 @@
+// WAJP to read n integer elemant from the user and print sum all those element 
+// i/p ={ 40,60,20,40,40} 
+// o/p ={ the sum of all elemant is-200}
+
 import java.util.Scanner;
 public class Q2
  {

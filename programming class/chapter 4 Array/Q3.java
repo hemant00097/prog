@@ -1,3 +1,6 @@
+// WAJP to define a method to return smallest element from the array
+// i/p ={ 34,56, 78, 12, 45 ,67 }
+// o/p ={the smallest elemant is-12}
 import java.util.Scanner;
 public class Q3
  {

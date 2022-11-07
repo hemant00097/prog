@@ -1,3 +1,6 @@
+// WAJP to define a method to return average of integer  from the array element
+// i/p =[23,45,56,78]
+// o/p =[the average of all elemant is-143.5]
 import java.util.Scanner;
 public class Q5
 {

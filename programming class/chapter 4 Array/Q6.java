@@ -1,3 +1,6 @@
+// WAJP to define a method to return how many prime number present in the array element
+// i/p =[23,56,3,7,11,46]
+// o/p =[the number of prime number are -3]
 import java.util.Scanner;
 public class Q6
  {
