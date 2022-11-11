@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+</head>
+<body>
+<h1>Documnet Object Model</h1>
+<h1>Node js</h1>
+<h1>Angular js</h1>
+
+<button onclick="ch()">change color</button>
+<button onclick="fs()">change color</button>
+<button onclick="abord()">apply border</button>
+<button onclick="ref()">reset</button>
+<script>
+    
+    function ch()
+    {
+        var x=document.getElementsByTagName("h1")
+       for (let i = 0; i < x.length; i++) {
+        
+        x[i].style.color="aqua"
+       }  
+    }
+    function fs()
+    {
+        var x=document.getElementsByTagName("h1")
+       for (let i = 0; i < x.length; i++) {
+        
+        x[i].style.fontStyle="italic"
+       }  
+    }
+    function abord()
+    {
+        var x=document.getElementsByTagName("h1")
+       for (let i = 0; i < x.length; i++) {
+        
+        x[i].style.border="2px dotted red"
+       }  
+    }
+    function ref()
+    {
+     location.reload()  
+    }
+
+</script>
+</body>
+</html>

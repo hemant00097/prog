@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Select Scripting language</h1>
+    <input type="radio" id="input1" name="r1" value="java">java
+    <br><br>
+    <input type="radio" id="input2" name="r1" value="java Script">java Script
+    <br><br>
+    <input type="radio" id="input3" name="r1" value="pythen">pythen
+    <br><br>
+    <input type="radio" id="input4" name="r1" value="C#">C#
+    <br><br>
+    <button onclick="vail()">submit</button>
+    <script>
+        function vail()
+        {
+            var x1=document.getElementById("input1")
+            var x2=document.getElementById("input2")
+            var x3=document.getElementById("input3")
+            var x4=document.getElementById("input4")
+        
+
+        if(x1.checked==true)
+        {
+            alert("answer selected is "+x1.value)
+        }
+        else if(x2.checked==true)
+        {
+            alert("answer selected is "+x2.value)
+        }
+        else if(x3.checked==true)
+        {
+            alert("answer selected is "+x3.value)
+        }
+        else if(x4.checked==true)
+        {
+            alert("answer selected is "+x4.value)
+        }
+        else 
+        {
+          alert("no answer is selected")  
+        }
+    }
+    </script>
+</body>
+</html>

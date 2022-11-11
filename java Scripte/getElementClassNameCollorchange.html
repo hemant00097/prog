@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="blue">1. java</h1>
+    <h1 class="orange">2. java Scrept</h1>
+    <h1 class="orange">3. Spring</h1>
+    <h1 class="orange">4. React</h1>
+    <h1 id="blue">5. Html</h1>
+    <button onclick="ch()">orange</button>
+    <script>
+        function ch()
+        {
+        var x=document.getElementsByClassName("orange")
+        console.log(x)
+        for (let i= 0; i < x.length; i++) 
+        {
+           x[i].style.color="orange"
+            
+        }
+        }
+    </script>
+</body>
+</html>

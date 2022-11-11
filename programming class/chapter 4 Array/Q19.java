@@ -1,13 +1,13 @@
-//WAJP  define a method to return how many prime number present in the array 
-// i/p =[78,56,3,7,11,46,88,45,454,112,111]   
-// o/p = The Number of prime number within 100 are -3 
+//WAJP  define a method to return how many prime number present between 100 and 1000 present in the array 
+// i/p =[103,646,101,788,107]   
+// o/p = The Number of prime number between 100 and 1000 are -3
 
 import java.util.Scanner;
-public class Q9
+public class Q19
  {
     static boolean isPrime(int n)
     {
-        if(n>100)
+        if(n<100 || n>1000)
         {
             return false;
         }
@@ -41,7 +41,7 @@ public class Q9
         System.out.println("Enter the size Array");
         int n=sc.nextInt();
         int ar[]=new int[n];
-        System.out.println("Enter the "+n+"integer value");
+        System.out.println("Enter the "+n+" integer value");
         for(int i=0;i<ar.length;i++)
         {
             ar[i]=sc.nextInt();
@@ -51,7 +51,7 @@ public class Q9
     }
     public static void main(String args[])
     {
-        System.out.println("the number of prime number within 100 are "+primeCount(readArray()));
+        System.out.println("the number of prime numbers between 100 and 1000 are "+primeCount(readArray()));
     }
     
 }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">DOM</h1>
+    <button onclick="x()" ondblclick="x1()"  onmouseover="x3()">change</button>
+    <script>
+        function x()
+        {
+        //document.getElementById("heading")
+        var c=document.getElementById("heading")
+        c.innerHTML="Document Object Model"
+
+    }
+    function x1()
+    {
+        var c=document.getElementById("heading")
+        c.style.color="red"
+        c.style.textAlign="center"
+        c.style.fontStyle="italic"
+        c.style.border="3px solid blue"
+        c.style.background="black"
+    }
+    function x3()
+    {
+        var c=document.getElementById("heading")
+        c.innerHTML="java script"
+    }
+    </script>
+</body>
+</html>

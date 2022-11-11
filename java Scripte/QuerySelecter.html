@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+</head>
+<body>
+    <h1>document object model</h1>
+    <h1 id="js"> java script</h1>
+    <h1 class="fw"> spring</h1>
+    <h1 class="fw">hibernet</h1>
+    <script>
+        var ele1=document.querySelector("h1,#js,.fw")
+        var ele2=document.querySelector("#js,h1,.fw")
+        var ele3=document.querySelector(".fw,h1,#js")
+        console.log(ele1)
+        console.log(ele2)
+        console.log(ele3)
+    </script>
+</body>
+</html>

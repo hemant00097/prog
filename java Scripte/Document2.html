@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>Document Object model</h1>
+    <button onclick="Red()">Red</button>
+    <button  onclick="Yellow()">Yellow</button>
+    <button onclick="Green()">Green</button>
+    <script>
+        var heading=document.getElementsByTagName("h1")
+        function Red()
+        {
+            heading[0].style.color="red"
+        }
+        function Yellow()
+        {
+            heading[0].style.color="Yellow"
+        }
+        function Green()
+        {
+            heading[0].style.color="Green"
+        }
+    </script>
+</body>
+</html>
