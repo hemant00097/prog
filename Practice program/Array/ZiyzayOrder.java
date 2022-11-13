@@ -76,7 +76,7 @@ public class ZiyzayOrder{
         }
         for(int n=0;n<c.length;n++)
         {
-            System.out.println(c[n]+" ");
+            System.out.print(c[n]+" ");
         }
     }
 }
