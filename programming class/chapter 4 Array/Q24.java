@@ -1,6 +1,10 @@
-//Define a method to insert one Array elemant at the Specificed index 
+// WAP to definr a method to delet the elemant in the specified index 
+// i/p = [23,45,67,89,32]
+//     you have to delet the 2nd index element
+// o/p = [23,45,89,32]
+
 import java.util.Scanner;
-public class InsertArray {
+public class Q24 {
     public static int[] readArray() 
     {
       Scanner sc=new Scanner(System.in);
@@ -8,7 +12,7 @@ public class InsertArray {
         int n= sc.nextInt();
         System.out.println("Enter the elements of array: ");
         int[] ar = new int[n];
-        System.out.println("Enter the "+n+" integer valur");
+        System.out.print("Enter the "+n+" integer valur");
         for(int i=0; i<ar.length; i++) 
         {
             ar[i] = sc.nextInt();
@@ -23,22 +27,21 @@ public class InsertArray {
         System.out.print(arr[i]+" ");
       }
     }
-    public static int[]  insertArr(int ar[],int ele ,int in )
+    public static int[]  deleteArr(int ar[],int in )
     {
-       if(in<0 && in>ar.length)
+       if(in<0 || in>=ar.length)
       {
         System.out.println("index not in the range ");
         return ar;
       } 
-       int [] br=new int[ar.length+1];
-       br[in]=ele;
+       int [] br=new int[ar.length-1];
 
-       for(int i=0;i<ar.length ;i++)
+       for(int i=0;i<br.length ;i++)
        {
         if(i<in)
         br[i]=ar[i];
         else
-        br[i+1]=ar[i];
+        br[i]=ar[i+1];
        }
        return br;
     }
@@ -46,11 +49,8 @@ public class InsertArray {
     {
         System.out.print(" Read Array ");
         int  a[]=readArray();
-        a=insertArr(a, 39, 2);
+        a=deleteArr(a, 2);
         System.out.print(" After Insert ");
-        disArray(a);
-        
+        disArray(a);        
     }
 }
-
-

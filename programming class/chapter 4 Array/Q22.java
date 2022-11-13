@@ -41,7 +41,6 @@ public class Q22
         }
         return c;
     }
-   
     public static void main(String[] args) 
     {
         Q22 ao=new Q22();

@@ -1,6 +1,11 @@
-//Define a method to insert one Array elemant at the Specificed index 
+// WAP to definr a method to insert the elemant in the specified index 
+// i/p = [23,45,56,78,89,34]
+// you have to insert 39 in the 3rd index
+// o/p = [23,45,56,39,78,89,34]
+
 import java.util.Scanner;
-public class InsertArray {
+public class Q23 
+{
     public static int[] readArray() 
     {
       Scanner sc=new Scanner(System.in);
@@ -48,9 +53,6 @@ public class InsertArray {
         int  a[]=readArray();
         a=insertArr(a, 39, 2);
         System.out.print(" After Insert ");
-        disArray(a);
-        
+        disArray(a); 
     }
 }
-
-
