@@ -25,5 +25,6 @@ public class ReverseString {
         String st=sc.next();
         st=reverse(st);
         System.out.println(st);
+        sc.close();
     }
 }

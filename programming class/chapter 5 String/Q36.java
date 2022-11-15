@@ -25,5 +25,6 @@ public class Q36 {
         String st=sc.next();
         st=reverse(st);
         System.out.println(st);
+        sc.close();
     }
 }

@@ -21,6 +21,7 @@ public class Q37
     Scanner sc= new Scanner(System.in);
     System.out.println("Enter the String ");
     String st=sc.next();
+    sc.close();
     boolean rs =ispalindrom(st);
     if(rs==true)
     System.out.print(st+" is Plindrome");

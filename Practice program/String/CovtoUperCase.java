@@ -21,5 +21,6 @@ public class CovtoUperCase {
         String st=sc.next();
         st=toUpercase(st);
         System.out.println(st);
+        sc.close();
     }
 }

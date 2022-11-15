@@ -3,7 +3,7 @@
 // o/p =SHIVAMOGGA
 import java.util.Scanner;
 
-public class CovtoUperCase {
+public class Q25 {
     static String toUpercase(String str)
     {
         char ch[]=str.toCharArray();
@@ -19,6 +19,7 @@ public class CovtoUperCase {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the String ");
         String st=sc.next();
+        sc.close();
         st=toUpercase(st);
         System.out.println(st);
     }

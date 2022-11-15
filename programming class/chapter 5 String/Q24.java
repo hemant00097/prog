@@ -2,7 +2,7 @@
 // i/p = BAnGLoRE
 // o/p = banglore
 import java.util.Scanner;
-public class Q23 
+public class Q24
 {
     static String toLower(String str)
     {

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+     <h1 id="heading">hello</h1>
+     <script>
+        // target the element 
+        var x=document.getElementById("heading")
+
+        // create the element
+        var tag =document.createElement("h2")
+        tag.textContent="java script"
+        console.log(tag)
+
+        //add the create element in all ather 4 size
+       // syntex = insertAdjacentElement(InsertPosition,element )
+      //  x.insertAdjacentElement("beforebegin",tag)
+      //  x.insertAdjacentElement("afterbegin",tag)
+       // x.insertAdjacentElement("afterend",tag)
+       x.insertAdjacentElement("beforeend",tag)
+     </script>
+</body>
+</html>
