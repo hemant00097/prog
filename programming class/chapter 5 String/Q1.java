@@ -1,6 +1,4 @@
-//Write a java program to count how many CAPITEL latters present in the String
-// i/p =BanGaLore
-// o/p =3
+
 import java.util.Scanner;
 public class Q1
 {
