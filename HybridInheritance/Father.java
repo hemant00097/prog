@@ -1,0 +1,5 @@
+interface Father 
+{
+    void care();
+    
+}

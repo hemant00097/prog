@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class StringHarfReverse {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the String");
         String str =sc.nextLine();
@@ -16,8 +17,9 @@ public class StringHarfReverse {
             ch[i]=str.charAt(i);
 
         }
-   for(int i=0;i<ch.length;i++){
+   for(int i=0;i<ch.length;i++)
+   {
     System.out.print(ch[i]);
-}
+   }
 }
 }

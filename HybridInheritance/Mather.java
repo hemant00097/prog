@@ -1,0 +1,5 @@
+interface Mather 
+{
+   void care();
+    
+}
